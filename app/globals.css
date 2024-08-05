@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .box {
+    @apply grid-cols-1 rounded-xl border shadow p-5 w-full;
+  }
+  .handImage {
+    @apply w-full h-auto block;
+  }
+  .image-container {
+    @apply relative inline-block w-full max-w-[400px];
+  }
+}
